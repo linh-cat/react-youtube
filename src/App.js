@@ -24,7 +24,7 @@ function App() {
               <Video />
             </div>
           </Route>
-          <Route path="/">
+          <Route path="/" exact>
             <div className="App__page">
               <Sidebar />
               <RecommendVideo />

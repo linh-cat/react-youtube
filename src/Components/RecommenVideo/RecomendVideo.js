@@ -16,7 +16,7 @@ function RecomendVideo() {
       );
 
       setVideos(request.data.items);
-      console.log(request.data.items);
+      // console.log(request.data.items);
       return request;
     }
     fetchData();

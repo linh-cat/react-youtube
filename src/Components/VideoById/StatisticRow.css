@@ -1,0 +1,16 @@
+.statisticRow {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  background: rgb(76, 75, 75);
+  padding: 0 20px;
+}
+
+.MuiSvgIcon-root {
+  color: #fff;
+  margin-right: 10px;
+}
+.statisticRow > p {
+  color: #fff;
+}

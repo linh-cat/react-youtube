@@ -1,0 +1,26 @@
+.inforVideo__title {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inforVideo__title > div > h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.inforVideo__title > div > p {
+  color: gray;
+  font-size: 17px;
+  margin-top: -20px;
+}
+.inforVideo__title > p {
+  color: #fff;
+  padding: 15px 10px;
+  background: rgb(76, 75, 75);
+}
+.inforVideo__description {
+  border-top: 1px solid black;
+}
+.infor__statistics {
+  display: flex;
+}

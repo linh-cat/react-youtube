@@ -30,7 +30,7 @@ function SearchPage() {
       </div>
       <hr />
       {videos.map((video) => (
-        <Link to={`/video/${video.id.videoId} `}>
+        <Link to={`/video/${video.id.videoId}`}>
           <VideoRow
             key={video.id.videoId && video.id.channelId}
             image={video.snippet.thumbnails.high.url}
